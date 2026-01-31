@@ -55,11 +55,9 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg,
-            hsl(var(--primary-hue), 60%, 25%) 0%,
-            hsl(var(--primary-hue), 70%, 35%) 100%);
+    background: transparent;
     padding: var(--spacing-md) var(--spacing-lg);
-    box-shadow: var(--shadow-md);
+    box-shadow: none;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -95,10 +93,7 @@ header h1 {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: var(--spacing-sm);
-    background: linear-gradient(135deg, #fff 0%, var(--primary-light) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--text-color);
 }
 
 nav ul {
