@@ -172,6 +172,34 @@ h1 {
     white-space: nowrap;
 }
 
+.cta-button {
+    align-self: center;
+    /* Prevent stretching */
+    display: inline-block;
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-lg);
+    background-color: #4caf50;
+    /* Lighter, solid green */
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    /* Pill shape */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all var(--transition-normal);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    backdrop-filter: blur(5px);
+}
+
+.cta-button:hover {
+    background-color: #66bb6a;
+    /* Even lighter on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 .hero-line.accent {
     color: #ffffff;
     font-weight: 800;
